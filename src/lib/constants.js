@@ -2,15 +2,15 @@ export const NAV_LINKS = ['About', 'Skills', 'Projects', 'Achievements', 'Contac
 
 export const ROLES = [
   'Full Stack Developer',
-  'Backend Engineer',
   'AI / LLM Builder',
+  'Backend Engineer',
   'Django Developer',
   'Open Source Dev',
 ]
 
 export const BADGES = [
   { icon: '🥇', cat: 'Hack AI · IIT Bombay',    label: 'Top 51 / 1400+ Teams'  },
-  { icon: '⚡', cat: 'LeetCode DSA',             label: '150+ Problems Solved'   },
+  { icon: '⚡', cat: 'LeetCode DSA',             label: '100+ Problems Solved'   },
   { icon: '👑', cat: 'GHRCEMN Coding Club',      label: 'President'              },
 ]
 
