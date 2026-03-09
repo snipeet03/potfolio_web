@@ -44,7 +44,7 @@ export const PROJECTS = [
     name: 'Movie Web Application',
     desc: 'Trending and popular movies browser with global state management and smooth navigation using Redux.',
     tags: ['React', 'Redux', 'React Router'],
-    links: [{ label: '⌥ GitHub ↗', href: '#' }],
+    links: [{ label: '⌥ GitHub ↗', href: 'https://github.com/snipeet03/react-movie-app' },  { label: '▶ Live Demo ↗', href: 'https://react-movie-app-4to9.vercel.app/' }],
     delay: 'reveal-d2',
   },
   {
@@ -52,7 +52,7 @@ export const PROJECTS = [
     name: 'Video Hosting Platform',
     desc: 'Full backend platform with video uploads, comments, likes, subscriptions and JWT-based authentication.',
     tags: ['Node.js', 'Express.js', 'MongoDB', 'JWT'],
-    links: [{ label: '⌥ GitHub ↗', href: '#' }],
+    links: [{ label: '⌥ GitHub ↗', href: 'https://github.com/snipeet03/videoTube-backend' }],
     delay: 'reveal-d1',
   },
   {
@@ -60,9 +60,10 @@ export const PROJECTS = [
     name: 'Inventory & Assembly Management System',
     desc: 'Manufacturing system built during Bosch internship to automate machine performance tracking, workflow analytics, and real-time dashboards for manufacturing data monitoring.',
     tags: ['Django', 'Python', 'PostgreSQL', 'Bosch Limited'],
-    links: [{ label: '⌥ GitHub ↗', href: '#' }, { label: '📄 Case Study ↗', href: '#' }],
+    links: [{ label: '⌥ GitHub ↗', href: 'https://github.com/snipeet03/Inventory-Management-' }, { label: '📄 Case Study ↗', href: '#' }],
     delay: 'reveal-d2',
   },
+  
 ]
 
 export const ACHIEVEMENTS = [
