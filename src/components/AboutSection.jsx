@@ -86,7 +86,7 @@ export default function AboutSection() {
                 <div className="terminal-body">
                   <span className="t-brace">{'{'}</span><br />
                   &nbsp;&nbsp;<span className="t-key">"role"</span>: <span className="t-str">"Python / Backend Intern"</span>,<br />
-                  &nbsp;&nbsp;<span className="t-key">"company"</span>: <span className="t-str">"Bosch Limited"</span>,<br />
+                  &nbsp;&nbsp;<span className="t-key">"company"</span>: <span className="t-str">"Bosch Limited, Nashik"</span>,<br />
                   &nbsp;&nbsp;<span className="t-key">"period"</span>: <span className="t-str">"June 2025 – Nov 2025"</span>,<br />
                   &nbsp;&nbsp;<span className="t-key">"stack"</span>: [<span className="t-str">"Django"</span>, <span className="t-str">"Python"</span>],<br />
                   &nbsp;&nbsp;<span className="t-key">"built"</span>: [<br />

@@ -1,9 +1,9 @@
 export default function Footer() {
   const links = [
-    { label:'GitHub',   href:'https://github.com/' },
-    { label:'LinkedIn', href:'https://linkedin.com/' },
+    { label:'GitHub',   href:'https://github.com/snipeet03' },
+    { label:'LinkedIn', href:'https://www.linkedin.com/in/navneet-lonare-206b6726b/' },
     { label:'Email',    href:'mailto:navneetlonare@gmail.com' },
-    { label:'Resume',   href:'#' },
+    { label:'Resume',   href:'https://drive.google.com/file/d/1XF2I3VXAA7I_ZNV3omFvoosIhdOiRwkA/view?usp=drive_link' },
   ]
   return (
     <footer>
