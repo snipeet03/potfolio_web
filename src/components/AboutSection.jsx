@@ -78,67 +78,23 @@ export default function AboutSection() {
 
             {/* Right */}
             <div className="reveal reveal-d2">
-              <div className="timeline-container" style={{ margin: '0 0 24px 0' }}>
-                <h3 className="timeline-header">Latest from my journey</h3>
-                <div className="timeline-list">
-                  {[
-                    {
-                      time: "September 8, 2004",
-                      title: "Date of Birth",
-                      desc: "Started my journey!"
-                    },
-                    {
-                      time: "2019 - 2020",
-                      title: "South Point School",
-                      desc: "SSC Class X — 91.80%"
-                    },
-                    {
-                      time: "2020 - 2022",
-                      title: "Adarsh Sanskar Vidyalaya",
-                      desc: "HSC Class XII — 72.83%"
-                    },
-                    {
-                      time: "2022 - 2026",
-                      title: "G H Raisoni College of Engineering and Management",
-                      desc: "Bachelor of Technology in Computer Science — CGPA: 7.79 (Till 7th Semester)"
-                    },
-                    {
-                      time: "June 2025 - Nov 2025",
-                      title: "Bosch Limited",
-                      desc: "Python / Backend Developer Intern — Satpur, Nashik",
-                      card: (
-                        <div className="terminal" style={{ marginTop: 16 }}>
-                          <div className="terminal-bar">
-                            <div className="t-dot t-red" /><div className="t-dot t-yellow" /><div className="t-dot t-green" />
-                            <span className="terminal-filename">experience.json</span>
-                          </div>
-                          <div className="terminal-body">
-                            <span className="t-brace">{'{'}</span><br />
-                            &nbsp;&nbsp;<span className="t-key">"role"</span>: <span className="t-str">"Python / Backend Intern"</span>,<br />
-                            &nbsp;&nbsp;<span className="t-key">"company"</span>: <span className="t-str">"Bosch Limited, Nashik"</span>,<br />
-                            &nbsp;&nbsp;<span className="t-key">"period"</span>: <span className="t-str">"June 2025 – Nov 2025"</span>,<br />
-                            &nbsp;&nbsp;<span className="t-key">"stack"</span>: [<span className="t-str">"Django"</span>, <span className="t-str">"Python"</span>],<br />
-                            &nbsp;&nbsp;<span className="t-key">"built"</span>: [<br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<span className="t-str">"Inventory &amp; Assembly Mgmt System"</span>,<br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<span className="t-str">"Real-time manufacturing dashboards"</span>,<br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;<span className="t-str">"Machine performance tracking"</span><br />
-                            &nbsp;&nbsp;]<br />
-                            <span className="t-brace">{'}'}</span>
-                          </div>
-                        </div>
-                      )
-                    }
-                  ].map((item, i) => (
-                    <div key={i} className="timeline-item">
-                      <div className="timeline-dot" />
-                      <div className="timeline-content">
-                        <div className="timeline-time">{item.time}</div>
-                        <div className="timeline-item-title">{item.title}</div>
-                        <div className="timeline-desc">{item.desc}</div>
-                        {item.card && item.card}
-                      </div>
-                    </div>
-                  ))}
+              <div className="terminal" style={{ marginBottom: 16 }}>
+                <div className="terminal-bar">
+                  <div className="t-dot t-red" /><div className="t-dot t-yellow" /><div className="t-dot t-green" />
+                  <span className="terminal-filename">experience.json</span>
+                </div>
+                <div className="terminal-body">
+                  <span className="t-brace">{'{'}</span><br />
+                  &nbsp;&nbsp;<span className="t-key">"role"</span>: <span className="t-str">"Python / Backend Intern"</span>,<br />
+                  &nbsp;&nbsp;<span className="t-key">"company"</span>: <span className="t-str">"Bosch Limited, Nashik"</span>,<br />
+                  &nbsp;&nbsp;<span className="t-key">"period"</span>: <span className="t-str">"June 2025 – Nov 2025"</span>,<br />
+                  &nbsp;&nbsp;<span className="t-key">"stack"</span>: [<span className="t-str">"Django"</span>, <span className="t-str">"Python"</span>],<br />
+                  &nbsp;&nbsp;<span className="t-key">"built"</span>: [<br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;<span className="t-str">"Inventory &amp; Assembly Mgmt System"</span>,<br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;<span className="t-str">"Real-time manufacturing dashboards"</span>,<br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;<span className="t-str">"Machine performance tracking"</span><br />
+                  &nbsp;&nbsp;]<br />
+                  <span className="t-brace">{'}'}</span>
                 </div>
               </div>
 
