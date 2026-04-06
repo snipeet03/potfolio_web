@@ -92,7 +92,7 @@ export default function HeroSection() {
                 <button className="btn-outline" onClick={() => scrollTo('contact')}>
                     <span>✉</span> Get in Touch
                 </button>
-                <a href="https://drive.google.com/file/d/1XF2I3VXAA7I_ZNV3omFvoosIhdOiRwkA/view?usp=drive_link" className="btn-outline">
+                <a href="https://drive.google.com/file/d/1iFk_EyDuuCEx34KZv6ARX2WNg2RCdV0X/view?usp=drive_link" className="btn-outline">
                     <span>↓</span> Download Resume
                 </a>
             </div>
