@@ -59,8 +59,8 @@ export const PROJECTS = [
   ],
   delay: '0.1s',
 },
-  
   {
+   {
   file: 'movie_app.js',
   lang: 'Frontend',
   icon: '🎬',
@@ -74,6 +74,14 @@ export const PROJECTS = [
   ],
   delay: '0.2s',
 },
+  {
+    file: 'inventory_mgmt.py', lang: 'Django', icon: '🏭', cls: 'b4',
+    name: 'Inventory & Assembly Management System',
+    desc: 'Manufacturing system built during Bosch internship to automate machine performance tracking, workflow analytics, and real-time dashboards for manufacturing data monitoring.',
+    tags: ['Django', 'Python', 'PostgreSQL', 'Bosch Limited'],
+    links: [{ label: '⌥ GitHub ↗', href: 'https://github.com/snipeet03/Inventory-Management-' }, { label: '📄 Case Study ↗', href: '#' }],
+    delay: 'reveal-d2',
+  },
   
 ]
 
