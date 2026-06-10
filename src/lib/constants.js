@@ -32,37 +32,48 @@ export const MARQUEE_SKILLS = [
 
 export const PROJECTS = [
   {
-    file: 'pdf_qa_rag.py', lang: 'Python', icon: '📄', cls: 'b1',
-    name: 'PDF Question Answering System (RAG)',
-    desc: 'A system that answers questions from PDF documents using Retrieval Augmented Generation and vector search. Combines semantic similarity search with LLM reasoning for accurate, context-aware answers.',
-    tags: ['Python', 'LangChain', 'Astra DB', 'OpenAI API', 'RAG'],
-    links: [{ label: '⌥ GitHub ↗', href: '#' }, { label: '▶ Live Demo ↗', href: '#' }],
-    delay: '',
-  },
+  file: 'codesage_ai.py',
+  lang: 'Python',
+  icon: '💻',
+  cls: 'b1',
+  name: 'CodeSage – AI Codebase Explainer',
+  desc: 'Built an AI-powered codebase understanding platform using RAG, LangChain, and FAISS. Parses multi-file repositories, generates semantic vector embeddings, and provides context-aware explanations of source code using Groq LLaMA 3.',
+  tags: ['Python', 'LangChain', 'FAISS', 'Groq LLaMA 3', 'React', 'RAG'],
+  links: [
+    { label: '⌥ GitHub ↗', href: 'https://github.com/snipeet03/GDPR-AI' },
+    { label: '▶ Live Demo ↗', href: 'https://code-sage-orcin.vercel.app/' }
+  ],
+  delay: '',
+},
   {
-    file: 'movie_app.jsx', lang: 'React', icon: '🎬', cls: 'b2',
-    name: 'Movie Web Application',
-    desc: 'Trending and popular movies browser with global state management and smooth navigation using Redux.',
-    tags: ['React', 'Redux', 'React Router'],
-    links: [{ label: '⌥ GitHub ↗', href: 'https://github.com/snipeet03/react-movie-app' },  { label: '▶ Live Demo ↗', href: 'https://react-movie-app-4to9.vercel.app/' }],
-    delay: 'reveal-d2',
-  },
+  file: 'gdpr_ai.js',
+  lang: 'Full Stack',
+  icon: '🛡️',
+  cls: 'b2',
+  name: 'GDPR-AI – AI-Powered GDPR Compliance Assistant',
+  desc: 'Developed a full-stack GDPR compliance platform that analyzes legal documents using custom retrieval pipelines, TF-IDF matching, cosine similarity, PDF parsing, and AI-powered compliance assistance. Automates ingestion, processing, and retrieval of GDPR-related regulatory content.',
+  tags: ['Node.js', 'Express.js', 'React.js', 'MongoDB', 'Groq API', 'RAG', 'TF-IDF', 'Tailwind CSS'],
+  links: [
+    { label: '⌥ GitHub ↗', href: 'https://github.com/snipeet03/GDPR-AI' },
+    { label: '▶ Live Demo ↗', href: 'https://gdpr-ai-5fd6-fklqbcz4d-navneet-lonares-projects.vercel.app' }
+  ],
+  delay: '0.1s',
+},
+  
   {
-    file: 'video_platform.js', lang: 'Node.js', icon: '▶', cls: 'b3',
-    name: 'Video Hosting Platform',
-    desc: 'Full backend platform with video uploads, comments, likes, subscriptions and JWT-based authentication.',
-    tags: ['Node.js', 'Express.js', 'MongoDB', 'JWT'],
-    links: [{ label: '⌥ GitHub ↗', href: 'https://github.com/snipeet03/videoTube-backend' }],
-    delay: 'reveal-d1',
-  },
-  {
-    file: 'inventory_mgmt.py', lang: 'Django', icon: '🏭', cls: 'b4',
-    name: 'Inventory & Assembly Management System',
-    desc: 'Manufacturing system built during Bosch internship to automate machine performance tracking, workflow analytics, and real-time dashboards for manufacturing data monitoring.',
-    tags: ['Django', 'Python', 'PostgreSQL', 'Bosch Limited'],
-    links: [{ label: '⌥ GitHub ↗', href: 'https://github.com/snipeet03/Inventory-Management-' }, { label: '📄 Case Study ↗', href: '#' }],
-    delay: 'reveal-d2',
-  },
+  file: 'movie_app.js',
+  lang: 'Frontend',
+  icon: '🎬',
+  cls: 'b3',
+  name: 'Movie Web Application',
+  desc: 'Built a scalable React-based movie discovery platform leveraging Redux for state management and asynchronous API integrations. Implemented search, filtering, watchlist management, and dynamic content rendering while optimizing data flow and user interactions across multiple views.',
+  tags: ['React', 'Redux', 'JavaScript', 'Tailwind CSS', 'REST API'],
+  links: [
+    { label: '⌥ GitHub ↗', href: 'https://github.com/snipeet03/react-movie-app' },
+    { label: '▶ Live Demo ↗', href: 'https://react-movie-app-4to9.vercel.app/' }
+  ],
+  delay: '0.2s',
+},
   
 ]
 
