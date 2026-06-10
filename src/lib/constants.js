@@ -59,7 +59,6 @@ export const PROJECTS = [
   ],
   delay: '0.1s',
 },
-  {
    {
   file: 'movie_app.js',
   lang: 'Frontend',
@@ -81,7 +80,7 @@ export const PROJECTS = [
     tags: ['Django', 'Python', 'PostgreSQL', 'Bosch Limited'],
     links: [{ label: '⌥ GitHub ↗', href: 'https://github.com/snipeet03/Inventory-Management-' }, { label: '📄 Case Study ↗', href: '#' }],
     delay: 'reveal-d2',
-  },
+  }
   
 ]
 
