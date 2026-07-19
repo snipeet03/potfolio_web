@@ -55,7 +55,7 @@ export const PROJECTS = [
   tags: ['Node.js', 'Express.js', 'React.js', 'MongoDB', 'Groq API', 'RAG', 'TF-IDF', 'Tailwind CSS'],
   links: [
     { label: '⌥ GitHub ↗', href: 'https://github.com/snipeet03/GDPR-AI' },
-    { label: '▶ Live Demo ↗', href: 'https://gdpr-ai-5fd6-fklqbcz4d-navneet-lonares-projects.vercel.app' }
+    { label: '▶ Live Demo ↗', href: 'https://gdpr-ai-y6h2.vercel.app/login' }
   ],
   delay: '0.1s',
 },
@@ -74,19 +74,79 @@ export const PROJECTS = [
   delay: '0.2s',
 },
   {
-    file: 'inventory_mgmt.py', lang: 'Django', icon: '🏭', cls: 'b4',
-    name: 'Inventory & Assembly Management System',
-    desc: 'Manufacturing system built during Bosch internship to automate machine performance tracking, workflow analytics, and real-time dashboards for manufacturing data monitoring.',
-    tags: ['Django', 'Python', 'PostgreSQL', 'Bosch Limited'],
-    links: [{ label: '⌥ GitHub ↗', href: 'https://github.com/snipeet03/Inventory-Management-' }, { label: '📄 Case Study ↗', href: '#' }],
-    delay: 'reveal-d2',
-  }
+  file: 'neurascan_ai.py',
+  lang: 'AI / Machine Learning',
+  icon: '🧠',
+  cls: 'b2',
+  name: 'NeuraScan – Early Parkinson’s Disease Detection',
+  desc: 'Designed and developed an AI-powered healthcare platform for early Parkinson’s disease screening using multimodal biomarkers. Integrated voice signal analysis (MFCC, jitter, shimmer, pitch, HNR) and typing dynamics (dwell time, flight time, rhythm, WPM) with an ensemble Machine Learning model (SVM + Random Forest) to predict Parkinson’s risk. Built a FastAPI backend, React frontend, MongoDB database, JWT authentication, and automated PDF medical report generation.',
+  tags: [
+    'Python',
+    'FastAPI',
+    'React',
+    'MongoDB',
+    'Scikit-learn',
+    'Librosa',
+    'Machine Learning',
+    'SVM',
+    'Random Forest',
+    'JWT',
+    'ReportLab',
+    'Recharts'
+  ],
+  links: [
+    {
+      label: '⌥ GitHub ↗',
+      href: 'https://github.com/snipeet03/parkinsons-detection'
+    },
+    {
+      label: '▶ Live Demo ↗',
+      href: '#'
+    }
+  ],
+  delay: '0.1s',
+},
+
+{
+  file: 'multilingual_qna.py',
+  lang: 'Generative AI',
+  icon: '🌐',
+  cls: 'b3',
+  name: 'Multilingual QnA Generator',
+  desc: 'Developed a Generative AI application that automatically extracts content from PDF, DOCX, and TXT documents to generate intelligent Question–Answer pairs using Groq LLaMA 3.3. Implemented multilingual translation into Hindi and Marathi, document chunking, duplicate removal, and automated Excel report generation through an interactive Streamlit interface.',
+  tags: [
+    'Python',
+    'Streamlit',
+    'Groq API',
+    'Llama 3.3',
+    'LLM',
+    'Generative AI',
+    'NLP',
+    'PyPDF2',
+    'python-docx',
+    'deep-translator',
+    'openpyxl',
+    'Pandas'
+  ],
+  links: [
+    {
+      label: '⌥ GitHub ↗',
+      href: 'https://github.com/snipeet03/multilingual-qna-generator'
+    },
+    {
+      label: '▶ Live Demo ↗',
+      href: '#'
+    }
+  ],
+  delay: '0.2s',
+},
+
+  
   
 ]
 
 export const ACHIEVEMENTS = [
   { emoji: '🏆', title: 'Top 51 / 1400+ Teams',    sub: 'Hack AI · IIT Bombay',      desc: "Competed against 1400+ teams at India's premier AI hackathon hosted by IIT Bombay. Placed in the top 51 nationwide.", delay: 'reveal-d1' },
-  { emoji: '⚡', title: '150+ Problems Solved',     sub: 'LeetCode · DSA',            desc: 'Consistent problem-solving discipline across arrays, trees, graphs, DP, and system design fundamentals on LeetCode.', delay: 'reveal-d2' },
   { emoji: '🚀', title: '20+ Hackathons',           sub: 'National & College Level',  desc: 'Active participant across national and college-level hackathons — building full products under tight 24-48 hour deadlines.', delay: 'reveal-d3' },
   { emoji: '📜', title: 'Full Stack Certification', sub: '100xDevs · Web Development',desc: 'Completed the rigorous 100xDevs full-stack web development program covering React, Node.js, databases, and system design.', delay: 'reveal-d4' },
   { emoji: '👑', title: 'President — Coding Club',  sub: 'GHRCEMN · 2024–2025',      desc: 'Leading the college coding club — organizing competitive programming contests, technical workshops, and industry talks.', delay: 'reveal-d5' },
@@ -94,7 +154,7 @@ export const ACHIEVEMENTS = [
 
 export const CONTACT_LINKS = [
   { icon: '✉',  key: 'Email',    val: 'navneetlonare@gmail.com',        href: 'mailto:navneetlonare@gmail.com', accent: false },
-  { icon: 'gh', key: 'GitHub',   val: 'github.com/navneet-lonare',      href: 'https://github.com/',            accent: false },
-  { icon: 'li', key: 'LinkedIn', val: 'linkedin.com/in/navneet-lonare', href: 'https://linkedin.com/',          accent: false },
+  { icon: 'gh', key: 'GitHub',   val: 'github.com/navneet-lonare',      href: 'https://github.com/snipeet03', accent: false },
+  { icon: 'li', key: 'LinkedIn', val: 'linkedin.com/in/navneet-lonare', href: 'https://www.linkedin.com/in/navneet-lonare-206b6726b/', accent: false },
   { icon: '↓',  key: 'Resume',   val: 'Download PDF',                   href: '#',                              accent: true  },
 ]
