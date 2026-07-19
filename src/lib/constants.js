@@ -36,6 +36,7 @@ export const PROJECTS = [
   lang: 'Python',
   icon: '💻',
   cls: 'b1',
+  image: '/codesage_preview.png',
   name: 'CodeSage – AI Codebase Explainer',
   desc: 'Built an AI-powered codebase understanding platform using RAG, LangChain, and FAISS. Parses multi-file repositories, generates semantic vector embeddings, and provides context-aware explanations of source code using Groq LLaMA 3.',
   tags: ['Python', 'LangChain', 'FAISS', 'Groq LLaMA 3', 'React', 'RAG'],
@@ -50,6 +51,7 @@ export const PROJECTS = [
   lang: 'Full Stack',
   icon: '🛡️',
   cls: 'b2',
+  image: '/gdpr_preview.png',
   name: 'GDPR-AI – AI-Powered GDPR Compliance Assistant',
   desc: 'Developed a full-stack GDPR compliance platform that analyzes legal documents using custom retrieval pipelines, TF-IDF matching, cosine similarity, PDF parsing, and AI-powered compliance assistance. Automates ingestion, processing, and retrieval of GDPR-related regulatory content.',
   tags: ['Node.js', 'Express.js', 'React.js', 'MongoDB', 'Groq API', 'RAG', 'TF-IDF', 'Tailwind CSS'],
@@ -64,6 +66,7 @@ export const PROJECTS = [
   lang: 'Frontend',
   icon: '🎬',
   cls: 'b3',
+  image: '/movie_preview.png',
   name: 'Movie Web Application',
   desc: 'Built a scalable React-based movie discovery platform leveraging Redux for state management and asynchronous API integrations. Implemented search, filtering, watchlist management, and dynamic content rendering while optimizing data flow and user interactions across multiple views.',
   tags: ['React', 'Redux', 'JavaScript', 'Tailwind CSS', 'REST API'],
@@ -77,7 +80,7 @@ export const PROJECTS = [
   file: 'neurascan_ai.py',
   lang: 'AI / Machine Learning',
   icon: '🧠',
-  cls: 'b2',
+  cls: 'b4',
   name: 'NeuraScan – Early Parkinson’s Disease Detection',
   desc: 'Designed and developed an AI-powered healthcare platform for early Parkinson’s disease screening using multimodal biomarkers. Integrated voice signal analysis (MFCC, jitter, shimmer, pitch, HNR) and typing dynamics (dwell time, flight time, rhythm, WPM) with an ensemble Machine Learning model (SVM + Random Forest) to predict Parkinson’s risk. Built a FastAPI backend, React frontend, MongoDB database, JWT authentication, and automated PDF medical report generation.',
   tags: [
@@ -111,7 +114,7 @@ export const PROJECTS = [
   file: 'multilingual_qna.py',
   lang: 'Generative AI',
   icon: '🌐',
-  cls: 'b3',
+  cls: 'b5',
   name: 'Multilingual QnA Generator',
   desc: 'Developed a Generative AI application that automatically extracts content from PDF, DOCX, and TXT documents to generate intelligent Question–Answer pairs using Groq LLaMA 3.3. Implemented multilingual translation into Hindi and Marathi, document chunking, duplicate removal, and automated Excel report generation through an interactive Streamlit interface.',
   tags: [
@@ -140,9 +143,6 @@ export const PROJECTS = [
   ],
   delay: '0.2s',
 },
-
-  
-  
 ]
 
 export const ACHIEVEMENTS = [

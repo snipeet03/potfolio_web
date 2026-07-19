@@ -62,6 +62,11 @@ function ProjectsGrid() {
                   <span className="proj-filename">{p.file}</span>
                   <span className="proj-lang-tag">{p.lang}</span>
                 </div>
+                {p.image && (
+                  <div className="proj-img-container">
+                    <img src={p.image} alt={p.name} className="proj-img" />
+                  </div>
+                )}
                 <div className="proj-body">
                   <div className="proj-icon">{p.icon}</div>
                   <div className="proj-name">{p.name}</div>
