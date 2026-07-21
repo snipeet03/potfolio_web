@@ -31,6 +31,39 @@ export const MARQUEE_SKILLS = [
 ]
 
 export const PROJECTS = [
+      {
+  file: 'neurascan_ai.py',
+  lang: 'AI / Machine Learning',
+  icon: '🧠',
+  cls: 'b4',
+  name: 'NeuraScan – Early Parkinson’s Disease Detection',
+  desc: 'Designed and developed an AI-powered healthcare platform for early Parkinson’s disease screening using multimodal biomarkers. Integrated voice signal analysis (MFCC, jitter, shimmer, pitch, HNR) and typing dynamics (dwell time, flight time, rhythm, WPM) with an ensemble Machine Learning model (SVM + Random Forest) to predict Parkinson’s risk. Built a FastAPI backend, React frontend, MongoDB database, JWT authentication, and automated PDF medical report generation.',
+  tags: [
+    'Python',
+    'FastAPI',
+    'React',
+    'MongoDB',
+    'Scikit-learn',
+    'Librosa',
+    'Machine Learning',
+    'SVM',
+    'Random Forest',
+    'JWT',
+    'ReportLab',
+    'Recharts'
+  ],
+  links: [
+    {
+      label: '⌥ GitHub ↗',
+      href: 'https://github.com/snipeet03/parkinsons-detection'
+    },
+    {
+      label: '▶ Live Demo ↗',
+      href: 'https://parkinson-s-disease-y28z.vercel.app/'
+    }
+  ],
+  delay: '0.1s',
+},
   {
   file: 'codesage_ai.py',
   lang: 'Python',
@@ -76,39 +109,7 @@ export const PROJECTS = [
   ],
   delay: '0.2s',
 },
-  {
-  file: 'neurascan_ai.py',
-  lang: 'AI / Machine Learning',
-  icon: '🧠',
-  cls: 'b4',
-  name: 'NeuraScan – Early Parkinson’s Disease Detection',
-  desc: 'Designed and developed an AI-powered healthcare platform for early Parkinson’s disease screening using multimodal biomarkers. Integrated voice signal analysis (MFCC, jitter, shimmer, pitch, HNR) and typing dynamics (dwell time, flight time, rhythm, WPM) with an ensemble Machine Learning model (SVM + Random Forest) to predict Parkinson’s risk. Built a FastAPI backend, React frontend, MongoDB database, JWT authentication, and automated PDF medical report generation.',
-  tags: [
-    'Python',
-    'FastAPI',
-    'React',
-    'MongoDB',
-    'Scikit-learn',
-    'Librosa',
-    'Machine Learning',
-    'SVM',
-    'Random Forest',
-    'JWT',
-    'ReportLab',
-    'Recharts'
-  ],
-  links: [
-    {
-      label: '⌥ GitHub ↗',
-      href: 'https://github.com/snipeet03/parkinsons-detection'
-    },
-    {
-      label: '▶ Live Demo ↗',
-      href: '#'
-    }
-  ],
-  delay: '0.1s',
-},
+
 
 {
   file: 'multilingual_qna.py',
