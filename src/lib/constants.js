@@ -36,6 +36,7 @@ export const PROJECTS = [
   lang: 'AI / Machine Learning',
   icon: '🧠',
   cls: 'b4',
+  image: '/neurascan_preview.png',
   name: 'NeuraScan – Early Parkinson’s Disease Detection',
   desc: 'Designed and developed an AI-powered healthcare platform for early Parkinson’s disease screening using multimodal biomarkers. Integrated voice signal analysis (MFCC, jitter, shimmer, pitch, HNR) and typing dynamics (dwell time, flight time, rhythm, WPM) with an ensemble Machine Learning model (SVM + Random Forest) to predict Parkinson’s risk. Built a FastAPI backend, React frontend, MongoDB database, JWT authentication, and automated PDF medical report generation.',
   tags: [

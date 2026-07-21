@@ -54,33 +54,45 @@ function ProjectsGrid() {
           <p style={{ color:'var(--muted)', fontSize:14, fontWeight:300 }}>Real products, real code, real impact.</p>
         </div>
         <div className="bento">
-          {PROJECTS.map(p => (
-            <div key={p.name} className={`${p.cls} reveal ${p.delay}`}>
-              <div className="proj-card">
-                <div className="proj-bar">
-                  <div className="t-dot t-red" /><div className="t-dot t-yellow" /><div className="t-dot t-green" />
-                  <span className="proj-filename">{p.file}</span>
-                  <span className="proj-lang-tag">{p.lang}</span>
-                </div>
-                {p.image && (
-                  <div className="proj-img-container">
-                    <img src={p.image} alt={p.name} className="proj-img" />
+          {PROJECTS.map(p => {
+            const liveLink = p.links?.find(l => l.label.includes('Live Demo'))?.href;
+            const hasLiveLink = liveLink && liveLink !== '#';
+            return (
+              <div key={p.name} className={`${p.cls} reveal ${p.delay}`}>
+                <div className="proj-card">
+                  <div className="proj-bar">
+                    <div className="t-dot t-red" /><div className="t-dot t-yellow" /><div className="t-dot t-green" />
+                    <span className="proj-filename">{p.file}</span>
+                    <span className="proj-lang-tag">{p.lang}</span>
                   </div>
-                )}
-                <div className="proj-body">
-                  <div className="proj-icon">{p.icon}</div>
-                  <div className="proj-name">{p.name}</div>
-                  <div className="proj-desc">{p.desc}</div>
-                  <div className="proj-tags">
-                    {p.tags.map(t => <span key={t} className="proj-tag">{t}</span>)}
-                  </div>
-                  <div className="proj-links">
-                    {p.links.map(l => <a key={l.label} href={l.href} className="proj-link">{l.label}</a>)}
+                  {p.image && (
+                    hasLiveLink ? (
+                      <a href={liveLink} target="_blank" rel="noreferrer" className="proj-img-link" style={{ display: 'block' }}>
+                        <div className="proj-img-container">
+                          <img src={p.image} alt={p.name} className="proj-img" />
+                        </div>
+                      </a>
+                    ) : (
+                      <div className="proj-img-container">
+                        <img src={p.image} alt={p.name} className="proj-img" />
+                      </div>
+                    )
+                  )}
+                  <div className="proj-body">
+                    <div className="proj-icon">{p.icon}</div>
+                    <div className="proj-name">{p.name}</div>
+                    <div className="proj-desc">{p.desc}</div>
+                    <div className="proj-tags">
+                      {p.tags.map(t => <span key={t} className="proj-tag">{t}</span>)}
+                    </div>
+                    <div className="proj-links">
+                      {p.links.map(l => <a key={l.label} href={l.href} className="proj-link">{l.label}</a>)}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
